@@ -1,0 +1,44 @@
+/* font-family: 'Mouse Memoirs', sans-serif; */
+body{
+    background-image: url(download.jpg);
+    border:1px solid black ;
+    color: white;
+}
+.main{
+    border:1px solid blue ;
+    background-color: rgba(0,0,0,0.2);
+    width: 300px;
+    margin: 200px auto;
+    padding: 8px 20px 19px;
+    border-radius: 6px;
+}
+.main>h2{
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-align: center ;
+}
+.in{
+    width: 90%;
+    font-size: 15px;
+    border: 1px solid rgb(170, 41, 62);
+    box-shadow: 2px;
+    border-radius: 3px;
+    padding: 3PX 10PX;
+    margin: 5px 0px ;
+}
+input:focus{
+    background-color: gray;
+}
+.bt{
+    text-align: center;
+    margin: 20px 0px 0px;
+    
+}
+button{
+    color:white;
+    background-color: red;
+    padding: 6px 5px;
+    width: 90px;
+    border: 1px solid;
+    border-color: red;
+    border-radius: 3px;
+}
